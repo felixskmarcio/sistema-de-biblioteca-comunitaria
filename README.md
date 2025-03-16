@@ -140,7 +140,7 @@ src/
 ### 1️⃣ Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/biblioteca-comunitaria.git
+git clone https://github.com/felixskmarcio/sistema-de-biblioteca-comunitaria.git
 cd biblioteca-comunitaria
 ```
 
