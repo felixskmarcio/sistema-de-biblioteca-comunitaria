@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuração do arquivo de implantação da aplicação web -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <!-- Nome de exibição da aplicação no servidor -->
+  <display-name>avb2</display-name>
+  
+  <!-- Configuração do servlet para gerenciamento de livros -->
+  <servlet>
+    <servlet-name>BookController</servlet-name>
+    <servlet-class>com.example.controller.BookController</servlet-class>
+  </servlet>
+  <!-- Mapeamento de URL para o servlet de livros -->
+  <servlet-mapping>
+    <servlet-name>BookController</servlet-name>
+    <url-pattern>/books/*</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Configuração do servlet para gerenciamento de usuários -->
+  <servlet>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>com.example.controller.UserController</servlet-class>
+  </servlet>
+  <!-- Mapeamento de URL para o servlet de usuários -->
+  <servlet-mapping>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/users/*</url-pattern>
+  </servlet-mapping>
+  <!-- Lista de arquivos de boas-vindas (páginas iniciais) -->
+  <!-- O servidor tentará carregar estes arquivos na ordem listada quando uma URL apontar para um diretório -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+</web-app>
