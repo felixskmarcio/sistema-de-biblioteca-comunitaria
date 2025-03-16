@@ -110,18 +110,18 @@ src/
 ├── main/
 │   ├── java/
 │   │   └── com/biblioteca/
-│   │       ├── controller/  # Servlets e lógica de controle
-│   │       ├── model/       # Entidades e lógica de negócio
-│   │       ├── dao/         # Acesso a dados
-│   │       └── util/        # Classes utilitárias
+│   │       ├── controller/  # Controladores que processam requisições HTTP e retornam respostas
+│   │       ├── model/       # Modelos que representam as entidades e lógica de negócios
+│   │       ├── dao/         # Objetos de Acesso a Dados para operações CRUD
+│   │       └── util/        # Classes utilitárias com funções auxiliares
 │   └── webapp/
 │       ├── WEB-INF/
-│       │   └── views/       # Arquivos JSP
+│       │   └── views/       # Arquivos JSP para renderização da interface
 │       ├── resources/
-│       │   ├── css/         # Estilos
-│       │   ├── js/          # JavaScript
-│       │   └── images/      # Imagens
-│       └── index.jsp        # Página inicial
+│       │   ├── css/         # Folhas de estilo para a interface
+│       │   ├── js/          # Arquivos JavaScript para funcionalidades do cliente
+│       │   └── images/      # Imagens utilizadas na aplicação
+│       └── index.jsp        # Página inicial da aplicação
 ```
 
 ## 📋 Requisitos do Sistema
