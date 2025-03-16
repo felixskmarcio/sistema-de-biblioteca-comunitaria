@@ -2,7 +2,7 @@
 <!-- Configuração do arquivo de implantação da aplicação web -->
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
   <!-- Nome de exibição da aplicação no servidor -->
-  <display-name>avb2</display-name>
+  <display-name>avb1</display-name>
   
   <!-- Configuração do servlet para gerenciamento de livros -->
   <servlet>

@@ -25,6 +25,8 @@ public class UserController extends HttpServlet {
      * Inicializa o serviço de usuários.
      */
     public void init() {
+        userService = new UserService();
+    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
