@@ -141,7 +141,7 @@ src/
 
 ```bash
 git clone https://github.com/felixskmarcio/sistema-de-biblioteca-comunitaria.git
-cd biblioteca-comunitaria
+cd sistema-de-biblioteca-comunitaria
 ```
 
 ### 2️⃣ Configure o banco de dados
